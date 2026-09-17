@@ -1,9 +1,34 @@
 h1{
-  border-color: #d3e644;
-  border-style: dashed;
+  padding:5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color:white;
+  background-color:red;
 }
 
-table {
+p, ol{
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  color:darkslategray;
+}
+
+/* This is small text, this just makes it if I ever want to change the "small" font size it is all done together. */
+#author-name-and-date, a{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+#author-name-and-date{
+    color:gray;
+}
+
+a{
+  color:blue;
+}
+
+
+/* I do believe that the following styles are deprecated.
+ table {
   border-collapse: collapse;
   width: 100%;
   margin-bottom: 20px;
@@ -26,4 +51,4 @@ tbody tr:nth-child(even) {
 
 tbody tr:hover {
   background-color: #e9e9e9;
-}
+} */
